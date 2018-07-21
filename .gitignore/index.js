@@ -8,7 +8,7 @@ bot.on('ready', function () {
 })
 
 bot.on('message', msg => {
-  if (msgmsg.content === prefix + 'ping') {
+  if (msg.content === prefix + 'ping') {
     msg.reply('pong !')
   }
 })
